@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Fabio Ramos">
+    <meta name="description" content="Proyecto final de fundamentos de HTML, pagina de educacion">
+    <title>Evaluación Final/Educacion</title>
+  </head>
+<body>
+  <header>
+    <svg width="50" height="50">
+     <g>
+       <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="34" x="26" stroke-width="0" stroke="#000000" fill="#aaaaff">F.R</text>
+     </g>
+   </svg>
+  </header>
+  <nav>
+     <h1>Hoja de vida</h1>
+  </nav>
+  <h2>Fabio Ernesto</h2>
+  <h2>Ramos Reyes</h2>
+  <h3>11 de julio de 1997</h3>
+  <h3>San Salvador, El Salvador, CentroAmerica</h3>
+  <aside>
+    <ul>
+      <li><a href="index.html">Incio</a></li>
+      <li><a href="educacion.html">Educacion</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+  </aside>
+
+  <section>
+    <article>
+      <h2>Educacion</h2>
+    </article>
+    <article>
+      <table border="1">
+        <tr>
+          <td>Año</td>
+          <td>Institucion</td>
+          <td>Lugar</td>
+          <td>¿Culminó?</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Next U</td>
+          <td>Virtual</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Next U</td>
+          <td>Virtual</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Next U</td>
+          <td>Virtual</td>
+          <td>No</td>
+        </tr>
+      </table>
+    </article>
+    <article>
+      <h2>Agregar Estudios</h2>
+      <form >
+        <strong>Año:</strong>
+        <select>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select>
+        <br>
+        <strong>Institucion: </strong><input type="text" name="Institucion" required/>
+        <br>
+        <strong>Lugar:</strong><input type="text" name="Lugar" required/>
+        <br>
+        ¿Culminó?:
+        <input type="radio" name="r">Si
+        <input type="radio" name="r">No<br>
+        <input type="submit" name="enviar" value="Enviar">
+      </form>
+    </article>
+  </section>
+
+  <p>Derechos reservados ©, San Salvador, El Salvador.</p>
+  <footer>
+    <ul>
+      <li><p><strong>Rede social:</strong><a href="https://www.linkedin.com/in/fabio-ernesto-ramos-reyes-b90b1713a/">LinkedIn</a></p></li>
+      <li><p><strong>Email:</strong><a href="https://outlook.live.com/owa/">fabio.ramos@outlook.es</a></p></li>
+    </ul>
+  </footer>
+</body>
+</html>
