@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Fabio Ramos">
+    <meta name="description" content="Proyecto final de fundamentos de HTML">
+    <title>Evaluación Final/Experiencia</title>
+  </head>
+<body>
+  <header>
+    <svg width="50" height="50">
+     <g>
+       <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="34" x="26" stroke-width="0" stroke="#000000" fill="#aaaaff">F.R</text>
+     </g>
+   </svg>
+  </header>
+  <nav>
+     <h1>Hoja de vida</h1>
+  </nav>
+  <h2>Fabio Ernesto</h2>
+  <h2>Ramos Reyes</h2>
+  <h3>11 de julio de 1997</h3>
+  <h3>San Salvador, El Salvador, CentroAmerica</h3>
+  <aside>
+    <ul>
+      <li><a href="index.html">Incio</a></li>
+      <li><a href="educacion.html">Educacion</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+  </aside>
+
+  <section>
+    <article>
+      <h2>Experiencia</h2>
+    </article>
+    <article>
+      Video:<br>
+      <video src="videos/MiVideo.mp4" poster="img/poster.png" controls preload="auto">
+        <source src="videos/MiVideo.mp4" type="video/mp4">
+          Su navegador no es compatible con el elemento.
+      </video>
+      <br>
+      Audio:<br>
+      <audio src="audios/MiAudioHormiguita.mp3" controls poster="img/poster.png" preload="auto">
+        <source src="audios/MiAudioHormiguita.mp3" type="audio/mp3">
+          Su navegador no es compatible con el elemento.
+      </audio>
+    </article>
+  </section>
+
+  <p>Derechos reservados ©, San Salvador, El Salvador.</p>
+  <footer>
+    <ul>
+      <li><p><strong>Rede social:</strong><a href="https://www.linkedin.com/in/fabio-ernesto-ramos-reyes-b90b1713a/">LinkedIn</a></p></li>
+      <li><p><strong>Email:</strong><a href="https://outlook.live.com/owa/">fabio.ramos@outlook.es</a></p></li>
+    </ul>
+  </footer>
+</body>
+</html>
